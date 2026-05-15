@@ -552,3 +552,18 @@ section {
     font-size: .92rem;
     line-height: 1.7;
 }
+
+/* ── FOOTER ── */
+footer {
+    background: var(--navy);
+    border-top: 1px solid var(--border);
+    padding: 2rem 2.5rem;
+    text-align: center;
+    color: var(--muted);
+    font-size: .85rem;
+}
+
+footer span {
+    color: var(--accent2);
+    font-weight: 600;
+}
