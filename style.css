@@ -603,3 +603,57 @@ footer span {
     opacity: 1;
     transform: translateY(0);
 }
+
+/* ── RESPONSIVE ── */
+@media (max-width: 768px) {
+    nav {
+        padding: 1rem 1.5rem;
+    }
+
+    .nav-links {
+        gap: 1.2rem;
+    }
+
+    section {
+        padding: 4rem 1.5rem;
+    }
+
+    #hero {
+        padding: 6rem 1.5rem 3rem;
+    }
+
+    .hero-inner {
+        gap: 2.5rem;
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+
+    .hero-cta {
+        justify-content: center;
+    }
+
+    .hero-photo-frame {
+        width: 180px;
+        height: 180px;
+    }
+
+    .about-grid {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+    }
+
+    .contact-grid {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+    }
+
+    .projects-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 480px) {
+    .nav-links {
+        display: none;
+    }
+}
