@@ -439,3 +439,57 @@ section {
     font-size: .76rem;
     font-weight: 500;
 }
+
+/* ── CONTACT ── */
+#contact {
+    background: var(--navy2);
+}
+
+.contact-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 4rem;
+    align-items: center;
+}
+
+.contact-intro {
+    color: var(--muted);
+    font-size: .97rem;
+    line-height: 1.8;
+    margin-bottom: 1.5rem;
+}
+
+.contact-links {
+    display: flex;
+    flex-direction: column;
+    gap: .85rem;
+}
+
+.contact-link {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding: 1rem 1.2rem;
+    background: rgba(255, 255, 255, .04);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    text-decoration: none;
+    transition: all .2s;
+}
+
+.contact-link:hover {
+    background: rgba(59, 130, 246, .1);
+    border-color: rgba(59, 130, 246, .4);
+    transform: translateX(4px);
+}
+
+.contact-icon {
+    width: 40px;
+    height: 40px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.15rem;
+    flex-shrink: 0;
+}
