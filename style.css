@@ -493,3 +493,62 @@ section {
     font-size: 1.15rem;
     flex-shrink: 0;
 }
+
+.contact-icon.email {
+    background: rgba(59, 130, 246, .2);
+}
+
+.contact-icon.github {
+    background: rgba(255, 255, 255, .08);
+}
+
+.contact-icon.facebook {
+    background: rgba(59, 89, 152, .25);
+}
+
+.contact-link-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-link-label {
+    font-size: .75rem;
+    color: var(--muted);
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: .08em;
+}
+
+.contact-link-value {
+    font-size: .92rem;
+    color: var(--text);
+    font-weight: 500;
+}
+
+.contact-card {
+    background: linear-gradient(135deg, rgba(59, 130, 246, .15), rgba(245, 158, 11, .08));
+    border: 1px solid rgba(59, 130, 246, .2);
+    border-radius: var(--radius);
+    padding: 2.5rem;
+    text-align: center;
+}
+
+.contact-card-emoji {
+    font-size: 2.8rem;
+    margin-bottom: 1rem;
+    display: block;
+}
+
+.contact-card h3 {
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 1.3rem;
+    font-weight: 700;
+    color: #fff;
+    margin-bottom: .6rem;
+}
+
+.contact-card p {
+    color: var(--muted);
+    font-size: .92rem;
+    line-height: 1.7;
+}
